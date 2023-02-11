@@ -24,7 +24,7 @@ import tBottomicon from './Images/social-media-icons/bottom/twitter.svg';
 const App = () => {
     return(
         <div className='bg-black'>
-            <div className=' text-white mx-auto py-[125px] sm:max-w-2xl max-w-sm'>
+            <div className=' text-white mx-auto py-[125px] sm:max-w-2xl max-w-xs'>
                 <div className=''>
                     <img src={rexImage} alt="Israel Rex NFT"/>
                     <section className='my-8 sm:flex flex-column justify-between w-full'>
