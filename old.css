@@ -1,0 +1,319 @@
+@font-face {
+    font-family: "GT Walsheim Pro2";
+    src: url(./GTWalsheimPro/GTWalsheimPro-Bold.ttf) format('truetype');
+    font-weight: 100,;
+}@font-face {
+    font-family: "GT Walsheim Pro";
+    src: url(./GTWalsheimPro/GTWalsheimPro-Light.ttf) format('truetype');
+    font-weight: 100;
+}
+
+body {
+    font-family: "GT Walsheim Pro", sans-serif;
+    background: #1E1E1E;
+    color: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 623px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+    left: 0px;
+    right: 0px;
+}
+.PositionSocial{
+    /* max-width: 623px; */
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    justify-content: space-between;
+}
+.position{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #7E7E7E;
+}
+.top-socials{
+    width: 156px;
+    margin: 0px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+#myName{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+p{
+    color: white;
+    font-family: GT Walsheim Pro;
+    font-size: 16px;
+    margin: 0px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    /* text-align: justify; */
+}
+h2 {
+    font-family: GT Walsheim Pro;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+}
+hr{
+    width: 623px;
+    height: 0px;
+    border: 0.5px solid #707070;
+    margin: 54px 0px;
+}
+.current-engagement{
+    margin: 48px 0px 0px 0px;
+}
+a{
+    color: white;
+    font-family: GT Walsheim Pro2;
+    text-decoration: none;
+    font-weight: 500;
+}
+.button-line{
+    display: flex;
+    align-items: center;
+    margin: 16px 0px 0px 0px;
+    justify-content: space-between;
+}
+button{
+    height: 38px;
+    width: 115px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    color: #01A4FF;
+    background: #1B2B35;
+    font-family: 'GT Walsheim Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    cursor: pointer;
+}
+.paragraph1{
+    line-height: 30px;
+    margin: 0px 0px 16px 0px
+}
+.paragraph2{
+    line-height: 30px;
+    margin: 0px 0px 16px 0px
+}
+.paragraph3{
+    line-height: 30px;
+    margin: 0px 0px 16px 0px
+}
+.paragraph4{
+    line-height: 30px;
+}
+
+.cardTexts{
+    height: 148px;
+    width: 267px;
+    margin: 0px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+
+}
+.projectCard{
+    border-radius: 10px;
+    border: none;
+    background: #27272A;
+    height: 346px;
+    width: 297px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#projectimage{
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
+}
+.project-tag{
+    font-family: GT Walsheim Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #01A4FF;
+}
+.project-title{
+    font-family: GT Walsheim Pro;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.project-desc{
+    font-family: GT Walsheim Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A6A6A6;
+}
+.project-duration{
+    font-family: GT Walsheim Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7E7E7E;
+}
+#section-title1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 622px;
+    margin: 0px 0px 34px 0px;
+}
+#cards{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    justify-content: space-between;
+}
+#section-title2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 622px;
+    margin: 50px 0px 34px 0px;
+}
+.title-link{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.where{
+    font-family: GT Walsheim Pro;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7E7E7E;
+
+}
+.speaking{
+    margin: 0px 0px 20px 0px;
+    padding: 10px 20px;
+    /* width: 623px; */
+    border: none;
+    border-radius: 5px;
+    gap: 5px;
+    background: #27272A;
+}
+.bottom-socials{
+    max-width: 402px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+@media screen and (max-width: 430px) {
+    /* Mobile View */
+    
+    body{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        max-width: 358px;
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+    .PositionSocial{
+        /* max-width: 623px; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+        margin: 10px 0px 0px 0px;
+        justify-content: space-between;
+    }
+    .position{
+        font-family: GT Walsheim Pro;
+        font-style: normal;
+        margin: 0px;
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #7E7E7E;
+    }
+    .top-socials{
+        width: 156px;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .button-line{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        margin: 16px 0px 0px 0px;
+        justify-content: space-between;
+    }
+    hr{
+        width: 358px;
+        height: 0px;
+        border: 0.5px solid #707070;
+        margin: 54px 0px;
+    }
+    #section-title1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 358px;
+        margin: 0px 0px 34px 0px;
+    }
+    #cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        gap: 40px;
+        justify-content: space-between;
+    }
+    #section-title2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 358px;
+        margin: 50px 0px 34px 0px;
+    }
+
+
+
+
+
+}
