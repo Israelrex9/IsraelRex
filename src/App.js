@@ -2,6 +2,7 @@ import React from 'react';
 
 import './App.css';
 import rexImage from './Images/israelrexnft.svg';
+import rex from './Images/rex.svg';
 import tTopicon from './Images/social-media-icons/twitter.svg';
 import lTopicon from './Images/social-media-icons/linkedin.svg';
 import bTopicon from './Images/social-media-icons/behance.svg';
@@ -47,7 +48,7 @@ const App = () => {
                         <a href="https://www.behance.net/israelrex9" target="_blank" className='font-GT'> portfolio</a>.
                     </p>
                     <section className='mt-[16px] mb-[54px] sm:flex flex-column w-full justify-between items-center'>
-                        <p>Occasional freelancer / consultant → 👋 <a href="mailto: israel06.rex@gmail.com" target="_blank" className='font-GT'>get in touch</a>.</p>
+                        <p>Occasional freelancer / consultant → 👋 <a href="mailto: israel06.rex@gmail.com" target="_blank" className='font-GT  hover:text-blue'>get in touch.</a></p>
                         <button href="#" className='py-2 px-3 border-blue border rounded-lg text-blue hover:text-white bg-blue/10 hover:bg-blue font-GT2 sm:mt-0 mt-3'>Know more →</button>
                     </section>
                     <hr className='border-[#707070]'></hr>
@@ -131,8 +132,8 @@ const App = () => {
                         </div>
                     </section>
                 </section>
-                <hr></hr>
-                <div className='flex mt-12 max-w-sm justify-between'>
+                <hr className='border-[#707070]'></hr>
+                <div className='flex my-12 max-w-sm justify-between'>
                     <a href="https://twitter.com/israelrex9" target="_blank"><img src={tBottomicon} alt="Twitter logo" /></a>
                     <a href="https://www.linkedin.com/in/israel-rex/" target="_blank"><img src={lBottomicon} alt="Linkedin logo"/></a>
                     <a href="https://www.behance.net/israelrex9" target="_blank"><img src={bBottomicon} alt="Behance logo"/></a>
@@ -141,6 +142,10 @@ const App = () => {
                     <a href="https://dribbble.com/IsraelRex" target="_blank"><img src={drBottomicon} alt="Dribble logo"/></a>
                     <a href="https://instagram.com/israelrex9?igshid=YmMyMTA2M2Y=" target="_blank"><img src={iBottomicon} alt="Instagram logo"/></a>
                     <a href="https://www.figma.com/@israelrex" target="_blank"><img src={fBottomicon} alt="Figma logo"/></a>
+                </div>
+                <hr className='border-[#707070] border-[0.5px]'></hr>
+                <div className='flex gap-2 sm:justify-start justify-center mt-10'>
+                    <p className='font-GT2 text-base text-[#7E7E7E] hover:text-blue'>🚀 Built & designed with ❤️ by <span className='text-white hover:text-blue'>IsraelRex</span>⚡</p>
                 </div>
             </div>
         </div>
