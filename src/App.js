@@ -31,7 +31,7 @@ const App = () => {
                     <section className='my-8 sm:flex flex-column justify-between w-full'>
                         <div>
                             <h2 className='font-GT1 text-xl'>Israel Rex</h2>
-                            <p className='font-GT3 font-normal text-[#7E7E7E] text-base'>Available for Remote Product Design role</p>
+                            <p className='font-GT3 font-normal text-[#7E7E7E] text-base'>🚀 Young Techpreneur</p>
                         </div>
                         <div className='flex justify-between w-40 items-end sm:mt-0 mt-4'>
                             <a href="https://twitter.com/israelrex9" target="_blank"><img src={tTopicon} alt="Twitter logo" /></a>
@@ -42,14 +42,14 @@ const App = () => {
                     </section>
                 </div>
                 <div className='font-GT3 leading-7 text-base'>
-                    <p>Product designer and frontend engineer. Currently designing Web3 products at <a href="https://www.banklessconsulting.com/" target="_blank" className='font-GT'>BC</a>, scaling
-                        web3 events with <a href="https://spacevents.xyz/" target="_blank" className='font-GT'>Spacevents</a>, building stuffs at <a href="https://www.xelmar.xyz/"
-                        target="_blank" className='font-GT'>Xelmar</a>. You can<a href="https://read.cv/israelrex" target="_blank" className='font-GT'> download my CV</a> or browse my
-                        <a href="https://www.behance.net/israelrex9" target="_blank" className='font-GT'> portfolio</a>.
+                    <p>Product designer and frontend engineer. Currently scaling web3 events with <a href="https://spacevents.xyz/" target="_blank" className='font-GT'>Spacevents</a>,
+                        building products, using web3 tech at <a href="https://www.xelmar.xyz/" target="_blank" className='font-GT'>Xelmar</a>. 
+                        You can<a href="https://read.cv/israelrex" target="_blank" className='font-GT'> view my CV</a> browse my design<a href="https://www.behance.net/israelrex9" target="_blank" className='font-GT'> portfolio</a>,
+                        or review my<a href="https://github.com/Israelrex9" target="_blank" className='font-GT'> Github</a>.
                     </p>
                     <section className='mt-[16px] mb-[54px] sm:flex flex-column w-full justify-between items-center'>
-                        <p>Occasional freelancer / consultant → 👋 <a href="mailto: israel06.rex@gmail.com" target="_blank" className='font-GT  hover:text-blue'>get in touch.</a></p>
-                        <button href="#" className='py-2 px-3 border-blue border rounded-lg text-blue hover:text-white bg-blue/10 hover:bg-blue font-GT2 sm:mt-0 mt-3'>Know more →</button>
+                        <p>Occasional freelancer / consultant → 👋 <a href="https://calendly.com/israelrex/meet-with-rex" target="_blank" className='font-GT  hover:text-blue'>get in touch.</a></p>
+                        <button href="mailto: israel06.rex@gmail.com" className='py-2 px-3 border-blue border rounded-lg text-blue hover:text-white bg-blue/10 hover:bg-blue font-GT2 sm:mt-0 mt-3'>Mail me →</button>
                     </section>
                     <hr className='border-[#707070]'></hr>
                 </div>
@@ -82,7 +82,7 @@ const App = () => {
                         <a href="#"><img src={openMain} alt="Open Main" /></a>
                     </section>
                     <section className='mt-[34px] grid sm:grid-cols-2 justify-items-center sm:justify-items-stretch'>
-                        <div className='bg-black1 flex flex-col rounded-lg sm:max-w-xs max-w-sm'>
+                        <div className='bg-black1 flex flex-col rounded-lg sm:max-w-xs max-w-sm cursor-pointer'>
                             <img src={projectImage1} alt="projectImage1" layout="responsive" className='border-0 rounded-t-lg'/>
                             <section className='p-4'>
                                 <p className='text-blue font-GT3 text-sm rounded-full p-2 bg-blue/10 w-20 text-center'>Design</p>
@@ -93,7 +93,7 @@ const App = () => {
                                 <p className='font-GT1 text-sm text-[#7E7E7E] mt-4'>Nov 2022 - February 2023</p>
                             </section>
                         </div>
-                        <div className='bg-black1 flex flex-col rounded-lg sm:max-w-xs max-w-sm sm:mt-0 mt-7'>
+                        <div className='bg-black1 flex flex-col rounded-lg sm:max-w-xs max-w-sm sm:mt-0 mt-7 cursor-pointer'>
                             <img src={projectImage2} alt="projectImage1" layout="responsive" className='border-0 rounded-t-lg'/>
                             <section className='p-4'>
                                 <p className='text-blue font-GT3 text-sm rounded-full p-2 bg-blue/10 w-40 text-center'>Design & Development</p>
