@@ -30,8 +30,8 @@ const App = () => {
                     <img src={rexImage} alt="Israel Rex NFT"/>
                     <section className='my-8 sm:flex flex-column justify-between w-full'>
                         <div>
-                            <h2 className='font-GT1 text-xl'>Israel Rex</h2>
-                            <p className='font-GT3 font-normal text-[#7E7E7E] text-base'>🚀 Young Techpreneur</p>
+                            <h2 className='font-GT1 text-xl'>Israel Rex ⚡</h2>
+                            <p className='font-GT3 font-normal text-[#7E7E7E] text-base'>Young Techpreneur</p>
                         </div>
                         <div className='flex justify-between w-40 items-end sm:mt-0 mt-4'>
                             <a href="https://twitter.com/israelrex9" target="_blank"><img src={tTopicon} alt="Twitter logo" /></a>
@@ -49,7 +49,7 @@ const App = () => {
                     </p>
                     <section className='mt-[16px] mb-[54px] sm:flex flex-column w-full justify-between items-center'>
                         <p>Occasional freelancer / consultant → 👋 <a href="https://calendly.com/israelrex/meet-with-rex" target="_blank" className='font-GT  hover:text-blue'>get in touch.</a></p>
-                        <button href="mailto: israel06.rex@gmail.com" className='py-2 px-3 border-blue border rounded-lg text-blue hover:text-white bg-blue/10 hover:bg-blue font-GT2 sm:mt-0 mt-3'>Mail me →</button>
+                        <a href="mailto: israel06.rex@gmail.com" className='py-2 px-3 border-blue border rounded-lg text-blue hover:text-white bg-blue/10 hover:bg-blue font-GT2 sm:mt-0 mt-3'>Mail me 🚀</a>
                     </section>
                     <hr className='border-[#707070]'></hr>
                 </div>
